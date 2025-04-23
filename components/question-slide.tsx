@@ -50,7 +50,7 @@ export default function QuestionSlide({ slide, onCorrectAnswer, onIncorrectAnswe
   }
 
   return (
-    <div className="flex flex-col md:flex-row gap-8">
+    <div className="flex flex-col md:flex-row gap-6">
       <div className="w-full md:w-1/2 flex flex-col items-center justify-center">
         <div className="w-full aspect-square rounded-xl overflow-hidden shadow-lg">
           <img
@@ -62,16 +62,16 @@ export default function QuestionSlide({ slide, onCorrectAnswer, onIncorrectAnswe
       </div>
 
       <div className="w-full md:w-1/2 flex flex-col">
-        <h3 className="text-3xl font-medium text-[#4c4f69] mb-8">{slide.question}</h3>
+        <h3 className="text-2xl font-medium text-[#4c4f69] mb-6">{slide.question}</h3>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 flex-1">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 flex-1">
           {shuffledChoices.map((choice, index) => (
             <Button
               key={index}
               onClick={() => handleChoiceSelect(choice)}
               disabled={selectedChoice !== null}
               className={`
-                h-auto py-8 px-8 text-left rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95 flex flex-col items-center justify-center
+                h-auto py-6 px-6 text-left rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95 flex flex-col items-center justify-center
                 ${
                   selectedChoice?.label === choice.label
                     ? isCorrect
@@ -89,12 +89,12 @@ export default function QuestionSlide({ slide, onCorrectAnswer, onIncorrectAnswe
                 <img 
                   src={choice.image} 
                   alt={choice.label}
-                  className="w-24 h-24 mb-4 object-contain" 
+                  className="w-16 h-16 mb-3 object-contain" 
                 />
               ) : (
-                <span className="text-6xl mb-4">{choice.emoji}</span>
+                <span className="text-5xl mb-3">{choice.emoji}</span>
               )}
-              <span className="text-center text-xl">{choice.label}</span>
+              <span className="text-center text-lg">{choice.label}</span>
             </Button>
           ))}
         </div>
