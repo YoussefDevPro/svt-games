@@ -6,7 +6,7 @@
       "slides": [
         {
           "type": "question",
-          "image": "/placeholder.svg?height=400&width=400&text=Système%20Digestif",
+          "image": "https://media.istockphoto.com/id/1675845648/fr/photo/anatomie-du-syst%C3%A8me-digestif-humain.jpg?s=612x612&w=0&k=20&c=kGR8cLMDULJJtscwZL8onAF1EWhpAuiuqF9DN-_HVGQ=",
           "question": "Quel organe est principalement responsable de la digestion des lipides ?",
           "choices": [
             { "label": "Intestin Grêle", "emoji": "🌭", "image": "https://cdn-icons-png.flaticon.com/512/3817/3817924.png" },
@@ -18,29 +18,75 @@
             "Il est long et étroit",
             "Principal site d'absorption des nutriments",
             "Contient des villosités pour augmenter la surface"
-          ]
+          ],
+          "correctIndex": 0
         },
         {
           "type": "info",
-          "image": "/placeholder.svg?height=400&width=400&text=Intestin%20Grêle",
+          "image": "https://hautsdefrance.vivalto-sante.com/wp-content/uploads/2020/11/intestin-grele.jpg",
           "text": "L'intestin grêle joue un rôle crucial dans l'absorption des nutriments. C'est là que se déroule la majeure partie de la digestion des aliments, à l'aide d'enzymes libérées par le pancréas et de la bile du foie. Il possède une grande surface grâce à ses nombreux replis et petites projections appelées villosités."
         },
         {
           "type": "question",
-          "image": "/placeholder.svg?height=400&width=400&text=Enzymes%20Digestives",
+          "image": "https://infinitabiotech.com/wp-content/uploads/2020/08/Enzymes-in-body.webp",
           "question": "Quelle enzyme décompose les glucides dans la bouche ?",
           "choices": [
-            { "label": "Amylase", "emoji": "🍞", "image": "/images/amylase.jpg" },
-            { "label": "Pepsine", "emoji": "🥩", "image": "/images/pepsine.jpg" },
-            { "label": "Lipase", "emoji": "🧈", "image": "/images/lipase.jpg" },
-            { "label": "Trypsine", "emoji": "🥚", "image": "/images/trypsine.jpg" }
+            { "label": "Amylase", "emoji": "🍞", "image": "https://cdn-icons-png.flaticon.com/512/8846/8846932.png" },
+            { "label": "Pepsine", "emoji": "🥩", "image": "https://cdn-icons-png.flaticon.com/512/9939/9939949.png" },
+            { "label": "Lipase", "emoji": "🧈", "image": "https://cdn-icons-png.flaticon.com/512/6045/6045101.png" },
+            { "label": "Trypsine", "emoji": "🥚", "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Red_triangle.svg" }
           ],
-          "hints": ["Présente dans la salive", "Commence la digestion de l'amidon", "Fonctionne dans un environnement à pH neutre"]
+          "hints": ["Présente dans la salive", "Commence la digestion de l'amidon", "Fonctionne dans un environnement à pH neutre"],
+          "correctIndex": 0
         },
         {
           "type": "info",
-          "image": "/placeholder.svg?height=400&width=400&text=Amylase",
+          "image": "https://nutrixeal-info.b-cdn.net/wp-content/uploads/2021/01/digestion-glucose-glycogene-amylase-salivaire-et-pancreatique-nutrixeal-info-2.jpg",
           "text": "L'amylase est une enzyme qui aide à décomposer les glucides complexes en sucres plus simples. L'amylase salivaire se trouve dans votre bouche et commence le processus de digestion des glucides dès que vous commencez à mâcher les aliments."
+        },
+        {
+          "type": "question",
+          "image": "https://parlonssciences.ca/sites/default/files/2021-10/human-digestive-system-anatomy.jpg",
+          "question": "Quel organe produit la bile ?",
+          "choices": [
+            { "label": "Foie", "emoji": "🧬", "image": "https://cdn-icons-png.flaticon.com/512/139/139188.png" },
+            { "label": "Pancréas", "emoji": "🧪", "image": "https://cdn-icons-png.flaticon.com/512/2864/2864303.png" },
+            { "label": "Vésicule biliaire", "emoji": "🟢", "image": "https://cdn-icons-png.flaticon.com/512/2864/2864318.png" },
+            { "label": "Estomac", "emoji": "🥤", "image": "https://cdn-icons-png.flaticon.com/512/2185/2185038.png" }
+          ],
+          "hints": [
+            "Organe le plus volumineux de l'abdomen",
+            "Situé sous le diaphragme",
+            "Participe à la détoxification"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "info",
+          "image": "https://www.ddg-gastro.be/wp-content/uploads/2023/02/le-foie-min.jpg",
+          "text": "Le foie synthétise la bile, un liquide essentiel pour l'émulsification des graisses et leur absorption. Il joue aussi un rôle majeur dans la détoxification du sang, la synthèse des protéines plasmatiques et le métabolisme des glucides et lipides."
+        },
+        {
+          "type": "question",
+          "image": "https://www.planetesante.ch/var/ezdemo_site/storage/images/media/images/00-rubriques/gastro-enterologie/estomac_bis/31078-1-eng-GB/Estomac_bis_gallerylarge.jpg",
+          "question": "Quelle est la fonction principale de l'estomac dans la digestion ?",
+          "choices": [
+            { "label": "malaxer les aliments", "emoji": "🥤", "image": "https://cdn-icons-png.flaticon.com/512/7565/7565769.png" },
+            { "label": "Absorber l'eau", "emoji": "💧", "image": "https://cdn-icons-png.flaticon.com/512/9087/9087035.png" },
+            { "label": "Synthétiser la bile", "emoji": "🧬", "image": "https://cdn-icons-png.flaticon.com/512/10172/10172606.png" },
+            { "label": "Filtrer le sang", "emoji": "🛡️", "image": "https://cdn-icons-png.flaticon.com/512/107/107799.png" }
+          ],
+          "hints": [
+            "Sécrétion de sucs digestifs acides",
+            "Muscles lisses pour le brassage",
+            "Forme une bouillie alimentaire (chyme)"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "type": "info",
+          "image": "https://cdn.futura-sciences.com/sources/images/chyme.jpeg",
+          "text": "L'estomac permet de stocker les aliments, de les malaxer grâce à ses contractions musculaires, et de les mélanger aux sucs gastriques (acide chlorhydrique et enzymes) pour former le chyme avant passage dans l’intestin grêle."
         }
       ]
     },
@@ -62,7 +108,8 @@
             "Il est du même côté que la main avec laquelle vous n'écrivez pas (pour la plupart des gens)",
             "Il pompe le sang désoxygéné",
             "C'est une chambre inférieure du cœur"
-          ]
+          ],
+          "correctIndex": 0
         },
         {
           "type": "info",

@@ -1,6 +1,6 @@
 "use client"
 
-import { Heart, TreesIcon as Lungs, Utensils, Droplet } from "lucide-react"
+import { Heart, TreesIcon as Lungs, Utensils, Droplet, Beef, HeartPulse, Wind, HandPlatter } from "lucide-react"
 
 interface MainMenuProps {
   onQuizSelect: (quizId: string) => void
@@ -11,7 +11,7 @@ export default function MainMenu({ onQuizSelect }: MainMenuProps) {
     {
       id: "digestive_system",
       title: "Système Digestif",
-      icon: <Utensils className="h-12 w-12 mb-2" />,
+      icon: <Beef className="h-12 w-12 mb-2" />,
       color: "bg-[#fe640b]/10 hover:bg-[#fe640b]/20",
       textColor: "text-[#fe640b]",
       borderColor: "border-[#fe640b]/30",
@@ -20,7 +20,7 @@ export default function MainMenu({ onQuizSelect }: MainMenuProps) {
     {
       id: "circulatory_system",
       title: "Système Circulatoire",
-      icon: <Heart className="h-12 w-12 mb-2" />,
+      icon: <HeartPulse className="h-12 w-12 mb-2" />,
       color: "bg-[#d20f39]/10 hover:bg-[#d20f39]/20",
       textColor: "text-[#d20f39]",
       borderColor: "border-[#d20f39]/30",
@@ -29,7 +29,7 @@ export default function MainMenu({ onQuizSelect }: MainMenuProps) {
     {
       id: "respiratory_system",
       title: "Système Respiratoire",
-      icon: <Lungs className="h-12 w-12 mb-2" />,
+      icon: <Wind className="h-12 w-12 mb-2" />,
       color: "bg-[#179299]/10 hover:bg-[#179299]/20",
       textColor: "text-[#179299]",
       borderColor: "border-[#179299]/30",
@@ -38,7 +38,7 @@ export default function MainMenu({ onQuizSelect }: MainMenuProps) {
     {
       id: "nutrition",
       title: "Nutrition",
-      icon: <Droplet className="h-12 w-12 mb-2" />,
+      icon: <HandPlatter className="h-12 w-12 mb-2" />,
       color: "bg-[#40a02b]/10 hover:bg-[#40a02b]/20",
       textColor: "text-[#40a02b]",
       borderColor: "border-[#40a02b]/30",

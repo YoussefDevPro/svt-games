@@ -1,0 +1,40 @@
+.question-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.correct-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(76, 175, 80, 0.3);
+  animation: fadeInOverlay 0.3s forwards;
+}
+
+.incorrect-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(244, 67, 54, 0.3);
+  animation: fadeInOverlay 0.3s forwards;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-10px); }
+  50% { transform: translateX(10px); }
+  75% { transform: translateX(-10px); }
+}
+
+@keyframes fadeInOverlay {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.button-shake {
+  animation: shake 0.4s ease-in-out;
+}
