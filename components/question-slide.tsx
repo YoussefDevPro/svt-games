@@ -6,7 +6,6 @@ import { shuffle } from "@/lib/utils"
 
 interface Choice {
   label: string
-  emoji: string
   image?: string // Added optional image property
 }
 
@@ -55,9 +54,9 @@ export default function QuestionSlide({ slide, onCorrectAnswer, onIncorrectAnswe
   }
 
   return (
-    <div className={`flex flex-col md:flex-row gap-6 transition-opacity duration-500 ease-in-out ${isMounted ? 'opacity-100' : 'opacity-0'}`}>
-      <div className={`w-full md:w-1/2 flex flex-col items-center justify-center transition-all duration-500 ease-in-out delay-100 ${isMounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
-        <div className="w-full aspect-square rounded-xl overflow-hidden shadow-lg">
+    <div className={`flex flex-col gap-0 transition-opacity duration-500 ease-in-out ${isMounted ? 'opacity-100' : 'opacity-0'}`}>
+      <div className={`w-full flex flex-col items-center justify-start transition-all duration-500 ease-in-out delay-100 ${isMounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
+        <div className="w-full aspect-square rounded-xl overflow-hidden mb-4">
           <img
             src={slide.image || `/placeholder.svg?height=400&width=400&text=${encodeURIComponent(slide.question)}`}
             alt={slide.question}
@@ -66,48 +65,38 @@ export default function QuestionSlide({ slide, onCorrectAnswer, onIncorrectAnswe
         </div>
       </div>
 
-      <div className="w-full md:w-1/2 flex flex-col">
-        <h3 className={`text-2xl font-medium text-[#4c4f69] mb-6 transition-all duration-500 ease-in-out delay-200 ${isMounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>{slide.question}</h3>
+      <div className="w-full flex flex-col items-start">
+        <h3 className={`text-18 font-medium text-[#4c4f69] mb-2 transition-all duration-500 ease-in-out delay-200 ${isMounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>{slide.question}</h3>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 flex-1">
+        <div className={`grid grid-cols-2 gap-4 w-full mt-6 ${isMounted ? 'opacity-100 scale-100' : 'opacity-0 scale-95'} transition-all duration-500`}>
           {shuffledChoices.map((choice, index) => (
             <Button
               key={index}
-              onClick={() => handleChoiceSelect(choice)}
-              disabled={selectedChoice !== null}
-              className={`
-                h-auto py-6 px-6 text-left rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95 flex flex-col items-center justify-center
-                transition-all duration-500 ease-in-out ${isMounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}
-                ${ // Apply delay based on index
-                  isMounted ? `delay-${index * 100 + 300}` : ''
-                }
-                ${ // Existing conditional styles
-                  selectedChoice?.label === choice.label
-                    ? isCorrect
-                      ? "bg-[#40a02b]/20 text-[#40a02b] border-[#40a02b]/50"
-                      : "bg-[#d20f39]/20 text-[#d20f39] border-[#d20f39]/50"
-                    : "bg-white/50 hover:bg-white/70 text-[#4c4f69] border-[#ccd0da]"
-                }
-              `}
-              style={{
-                boxShadow: "5px 5px 10px rgba(166, 173, 200, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.7)",
-              }}
               variant="outline"
+              className={`h-auto min-h-[100px] p-4 text-lg md:text-xl transition-all duration-300 ${
+                selectedChoice === choice
+                  ? isCorrect
+                    ? 'border-green-500 bg-green-50 hover:bg-green-100'
+                    : 'border-red-500 bg-red-50 hover:bg-red-100'
+                  : 'hover:scale-[1.02]'
+              }`}
+              onClick={() => !selectedChoice && handleChoiceSelect(choice)}
+              disabled={!!selectedChoice}
             >
-              {choice.image ? (
-                <img 
-                  src={choice.image} 
-                  alt={choice.label}
-                  className="w-16 h-16 mb-3 object-contain" 
-                />
-              ) : (
-                <span className="text-5xl mb-3">{choice.emoji}</span>
-              )}
-              <span className="text-center text-lg">{choice.label}</span>
+              <div className="flex flex-col items-center gap-2 w-full">
+                {choice.image && (
+                  <img 
+                    src={choice.image}
+                    alt="Choice visual"
+                    className="w-full max-w-[120px] h-auto max-h-[80px] object-contain mb-2"
+                  />
+                )}
+                <span className="font-medium whitespace-normal">{choice.label}</span>
+              </div>
             </Button>
           ))}
         </div>
       </div>
-    </div>
+      </div>
   )
 }

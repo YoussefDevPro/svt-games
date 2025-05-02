@@ -23,9 +23,9 @@ export default function QuestionSlide({ question, onAnswer, onNext }) {
         <div className={isCorrect ? 'correct-overlay' : 'incorrect-overlay'} />
       )}
 
-      <h2>{question.question}</h2>
+      <h2 className="text-sm font-medium text-gray-900">{question.question}</h2>
       
-      <div className="choices-container">
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
         {question.choices.map((choice, index) => (
           <button
             key={index}

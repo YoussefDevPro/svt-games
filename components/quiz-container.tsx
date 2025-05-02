@@ -51,19 +51,21 @@ export default function QuizContainer({ quizId, quizData, onBackToMenu, onScoreC
   const isLastSlide = currentSlideIndex === quiz.slides.length - 1
 
   return (
-    <div className="w-full max-w-5xl">
-      <div className="flex items-center mb-6">
+    <div className="flex flex-col h-full max-w-[90vw] max-h-[90vh] w-full bg-white rounded-2xl shadow-xl overflow-auto p-4 mb-0">
+      <div className="flex items-center space-x-2">
         <Button variant="ghost" onClick={onBackToMenu} className="flex items-center text-[#4c4f69] text-lg transition-all duration-300 transform hover:scale-105 active:scale-95">
           <ArrowLeft className="mr-2 h-5 w-5" />
           Retour au Menu
         </Button>
-        <h2 className="text-2xl font-semibold text-[#4c4f69] ml-6">{quiz.title}</h2>
-        <div className="ml-auto text-lg text-[#4c4f69]">
-          Diapositive {currentSlideIndex + 1} sur {quiz.slides.length}
+        {currentSlide.type !== 'question' && (
+  <h2 className="text-xl font-semibold text-[#4c4f69] ml-4">{quiz.title}</h2>
+)}
+        <div className="ml-auto text-base text-[#4c4f69]">
+          {currentSlideIndex + 1} sur {quiz.slides.length}
         </div>
       </div>
 
-      <div className="bg-white/30 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-white/50 transition-all duration-300">
+      <div className="bg-white/30 backdrop-blur-sm rounded-2xl p-4 border border-white/50 transition-all duration-300">
         {currentSlide.type === "question" ? (
           <QuestionSlide
             slide={currentSlide}

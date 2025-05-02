@@ -7,7 +7,7 @@
         {
           "type": "question",
           "image": "https://media.istockphoto.com/id/1675845648/fr/photo/anatomie-du-syst%C3%A8me-digestif-humain.jpg?s=612x612&w=0&k=20&c=kGR8cLMDULJJtscwZL8onAF1EWhpAuiuqF9DN-_HVGQ=",
-          "question": "Quel organe est principalement responsable de la digestion des lipides ?",
+          "question": "Quel organe est principalement responsable de la digestion chimique des lipides et de l'absorption de la plupart des nutriments ?",
           "choices": [
             { "label": "Intestin Grêle", "emoji": "🌭", "image": "https://cdn-icons-png.flaticon.com/512/3817/3817924.png" },
             { "label": "Estomac", "emoji": "🥤", "image": "https://cdn-icons-png.flaticon.com/512/2185/2185038.png" },
@@ -15,7 +15,7 @@
             { "label": "Pancréas", "emoji": "🧪", "image": "https://cdn-icons-png.flaticon.com/512/2864/2864303.png" }
           ],
           "hints": [
-            "Il est long et étroit",
+            "Il est long et étroit (plusieurs mètres)",
             "Principal site d'absorption des nutriments",
             "Contient des villosités pour augmenter la surface"
           ],
@@ -24,17 +24,17 @@
         {
           "type": "info",
           "image": "https://hautsdefrance.vivalto-sante.com/wp-content/uploads/2020/11/intestin-grele.jpg",
-          "text": "L'intestin grêle joue un rôle crucial dans l'absorption des nutriments. C'est là que se déroule la majeure partie de la digestion des aliments, à l'aide d'enzymes libérées par le pancréas et de la bile du foie. Il possède une grande surface grâce à ses nombreux replis et petites projections appelées villosités."
+          "text": "L'intestin grêle joue un rôle crucial dans l'absorption des nutriments. C'est là que se déroule la majeure partie de la digestion chimique des aliments (lipides, glucides, protéines), à l'aide d'enzymes libérées par le pancréas et de la bile du foie. Il possède une grande surface grâce à ses nombreux replis et petites projections appelées villosités."
         },
         {
           "type": "question",
           "image": "https://infinitabiotech.com/wp-content/uploads/2020/08/Enzymes-in-body.webp",
-          "question": "Quelle enzyme décompose les glucides dans la bouche ?",
+          "question": "Quelle enzyme décompose les glucides (amidon) dans la bouche ?",
           "choices": [
-            { "label": "Amylase", "emoji": "🍞", "image": "https://cdn-icons-png.flaticon.com/512/8846/8846932.png" },
+            { "label": "Amylase salivaire", "emoji": "🍞", "image": "https://cdn-icons-png.flaticon.com/512/8846/8846932.png" },
             { "label": "Pepsine", "emoji": "🥩", "image": "https://cdn-icons-png.flaticon.com/512/9939/9939949.png" },
             { "label": "Lipase", "emoji": "🧈", "image": "https://cdn-icons-png.flaticon.com/512/6045/6045101.png" },
-            { "label": "Trypsine", "emoji": "🥚", "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Red_triangle.svg" }
+            { "label": "Trypsine", "emoji": "🥚", "image": "https://cdn-icons-png.flaticon.com/512/16754/16754949.png" }
           ],
           "hints": ["Présente dans la salive", "Commence la digestion de l'amidon", "Fonctionne dans un environnement à pH neutre"],
           "correctIndex": 0
@@ -42,51 +42,183 @@
         {
           "type": "info",
           "image": "https://nutrixeal-info.b-cdn.net/wp-content/uploads/2021/01/digestion-glucose-glycogene-amylase-salivaire-et-pancreatique-nutrixeal-info-2.jpg",
-          "text": "L'amylase est une enzyme qui aide à décomposer les glucides complexes en sucres plus simples. L'amylase salivaire se trouve dans votre bouche et commence le processus de digestion des glucides dès que vous commencez à mâcher les aliments."
+          "text": "L'amylase salivaire est une enzyme présente dans la salive qui initie la décomposition des glucides complexes (comme l'amidon) en sucres plus simples, dès la mastication dans la bouche."
         },
         {
           "type": "question",
           "image": "https://parlonssciences.ca/sites/default/files/2021-10/human-digestive-system-anatomy.jpg",
-          "question": "Quel organe produit la bile ?",
+          "question": "Quel organe produit la bile, essentielle à la digestion des graisses ?",
           "choices": [
-            { "label": "Foie", "emoji": "🧬", "image": "https://cdn-icons-png.flaticon.com/512/139/139188.png" },
+            { "label": "Foie", "emoji": "🏭", "image": "https://cdn-icons-png.flaticon.com/512/139/139188.png" },
             { "label": "Pancréas", "emoji": "🧪", "image": "https://cdn-icons-png.flaticon.com/512/2864/2864303.png" },
             { "label": "Vésicule biliaire", "emoji": "🟢", "image": "https://cdn-icons-png.flaticon.com/512/2864/2864318.png" },
             { "label": "Estomac", "emoji": "🥤", "image": "https://cdn-icons-png.flaticon.com/512/2185/2185038.png" }
           ],
           "hints": [
             "Organe le plus volumineux de l'abdomen",
-            "Situé sous le diaphragme",
-            "Participe à la détoxification"
+            "Situé sous le diaphragme, à droite",
+            "Participe à la détoxification du sang"
           ],
           "correctIndex": 0
         },
         {
           "type": "info",
           "image": "https://www.ddg-gastro.be/wp-content/uploads/2023/02/le-foie-min.jpg",
-          "text": "Le foie synthétise la bile, un liquide essentiel pour l'émulsification des graisses et leur absorption. Il joue aussi un rôle majeur dans la détoxification du sang, la synthèse des protéines plasmatiques et le métabolisme des glucides et lipides."
+          "text": "Le foie synthétise la bile, un liquide essentiel pour l'émulsification (dispersion) des graisses, facilitant ainsi leur digestion et leur absorption par l'intestin grêle. La bile est ensuite stockée dans la vésicule biliaire."
         },
         {
           "type": "question",
           "image": "https://www.planetesante.ch/var/ezdemo_site/storage/images/media/images/00-rubriques/gastro-enterologie/estomac_bis/31078-1-eng-GB/Estomac_bis_gallerylarge.jpg",
           "question": "Quelle est la fonction principale de l'estomac dans la digestion ?",
           "choices": [
-            { "label": "malaxer les aliments", "emoji": "🥤", "image": "https://cdn-icons-png.flaticon.com/512/7565/7565769.png" },
-            { "label": "Absorber l'eau", "emoji": "💧", "image": "https://cdn-icons-png.flaticon.com/512/9087/9087035.png" },
-            { "label": "Synthétiser la bile", "emoji": "🧬", "image": "https://cdn-icons-png.flaticon.com/512/10172/10172606.png" },
-            { "label": "Filtrer le sang", "emoji": "🛡️", "image": "https://cdn-icons-png.flaticon.com/512/107/107799.png" }
+            { "label": "Malaxer les aliments et initier la digestion des protéines", "emoji": "🌀", "image": "https://cdn-icons-png.flaticon.com/512/7565/7565769.png" },
+            { "label": "Absorber la majorité de l'eau", "emoji": "💧", "image": "https://cdn-icons-png.flaticon.com/512/9087/9087035.png" },
+            { "label": "Produire la bile", "emoji": "🏭", "image": "https://cdn-icons-png.flaticon.com/512/10172/10172606.png" },
+            { "label": "Absorber les nutriments", "emoji": "🥕", "image": "https://cdn-icons-png.flaticon.com/512/3081/3081887.png" }
           ],
           "hints": [
-            "Sécrétion de sucs digestifs acides",
-            "Muscles lisses pour le brassage",
-            "Forme une bouillie alimentaire (chyme)"
+            "Sécrétion de sucs digestifs très acides (HCl)",
+            "Muscles puissants pour le brassage",
+            "Transforme le bol alimentaire en bouillie (chyme)"
           ],
-          "correctIndex": 1
+          "correctIndex": 0
         },
         {
           "type": "info",
           "image": "https://cdn.futura-sciences.com/sources/images/chyme.jpeg",
-          "text": "L'estomac permet de stocker les aliments, de les malaxer grâce à ses contractions musculaires, et de les mélanger aux sucs gastriques (acide chlorhydrique et enzymes) pour former le chyme avant passage dans l’intestin grêle."
+          "text": "L'estomac stocke temporairement les aliments, les malaxe grâce à ses contractions musculaires, et les mélange aux sucs gastriques (acide chlorhydrique et pepsine) pour initier la digestion des protéines et former le chyme avant son passage progressif dans l’intestin grêle."
+        },
+        {
+          "type": "question",
+          "image": "https://img.passeportsante.net/1200x675/2023-10-18/oesophage.webp",
+          "question": "Comment s'appelle le processus de contraction musculaire qui pousse les aliments le long de l'œsophage et de l'intestin ?",
+          "choices": [
+            { "label": "Péristaltisme", "emoji": "🌊", "image": "https://media.istockphoto.com/id/1385631148/fr/vectoriel/p%C3%A9ristaltisme-onde-involontaire-comme-les-contractions-musculaires-qui-d%C3%A9placent-le-bol.jpg?s=612x612&w=0&k=20&c=sWfnZ7mn8kqr0635hRG7JVJPRdtXfKL2A658HXbiWFY=" },
+            { "label": "Absorption", "emoji": "📥", "image": "https://cdn-icons-png.flaticon.com/512/5683/5683970.png" },
+            { "label": "Sécrétion", "emoji": "📤", "image": "https://cdn-icons-png.flaticon.com/512/4072/4072380.png" },
+            { "label": "Mastication", "emoji": "😬", "image": "https://images.squarespace-cdn.com/content/v1/5f2a561ffbc8f36b1ece54c8/1694273077805-5CN5IC72YK3DJAL26E01/Capture+d%E2%80%99%C3%A9cran+2023-09-09+%C3%A0+17.21.31.png" }
+          ],
+          "hints": [
+            "Ondes de contractions involontaires",
+            "Permet le transit des aliments",
+            "Concerne les muscles lisses du tube digestif"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "info",
+          "image": "https://www.informationhospitaliere.com/wp-content/uploads/2022/03/122706097_eps-Converti.png",
+          "text": "Le péristaltisme est une série de contractions musculaires ondulatoires et involontaires qui se propagent le long du tube digestif (œsophage, estomac, intestins), permettant ainsi de faire progresser les aliments."
+        },
+        {
+          "type": "question",
+          "image": "https://www.radiofrance.fr/s3/cruiser-production-eu3/2023/05/7f54cbdd-371d-4386-8835-c2c203e2422a/870x489_sc_foie.jpg,whffjdq",
+          "question": "Où la bile, produite par le foie, est-elle principalement stockée et concentrée avant d'être libérée ?",
+          "choices": [
+            { "label": "Vésicule biliaire", "emoji": "🟢", "image": "https://cdn-icons-png.flaticon.com/512/2864/2864318.png" },
+            { "label": "Pancréas", "emoji": "🧪", "image": "https://cdn-icons-png.flaticon.com/512/2864/2864303.png" },
+            { "label": "Estomac", "emoji": "🥤", "image": "https://cdn-icons-png.flaticon.com/512/2185/2185038.png" },
+            { "label": "Duodénum", "emoji": "➡️", "image": "https://cdn-icons-png.flaticon.com/512/9027/9027732.png" }
+          ],
+          "hints": [
+            "Petit organe en forme de poire",
+            "Situé sous le foie",
+            "Se contracte après un repas riche en graisses"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "info",
+          "image": "https://cdn1.chirurgie-bariatrique.paris/wp-content/uploads/2020/12/vesicule-biliaire-malade-dr-stephane-servajean-paris.jpg",
+          "text": "La vésicule biliaire est un petit sac situé sous le foie. Son rôle principal est de stocker et de concentrer la bile produite par le foie. Lors de la digestion, notamment après un repas gras, elle se contracte pour libérer la bile dans l'intestin grêle via le canal cholédoque."
+        },
+        {
+          "type": "question",
+          "image": "https://www.allaboutfeed.net/app/uploads/2020/12/001_519_IMG_microalgae.jpg",
+          "question": "Quel organe produit la majorité des enzymes digestives (lipases, protéases, amylase) et du bicarbonate pour neutraliser l'acidité du chyme ?",
+          "choices": [
+            { "label": "Pancréas", "emoji": "🔑", "image": "https://cdn-icons-png.flaticon.com/512/2864/2864303.png" },
+            { "label": "Foie", "emoji": "🏭", "image": "https://cdn-icons-png.flaticon.com/512/139/139188.png" },
+            { "label": "Glandes salivaires", "emoji": "💦", "image": "https://cdn-icons-png.flaticon.com/512/954/954419.png" },
+            { "label": "Intestin grêle", "emoji": "🌭", "image": "https://cdn-icons-png.flaticon.com/512/3817/3817924.png" }
+          ],
+          "hints": [
+            "Glande située derrière l'estomac",
+            "Fonction endocrine (insuline) et exocrine (sucs digestifs)",
+            "Ses sécrétions sont déversées dans le duodénum"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "info",
+          "image": "https://p.turbosquid.com/ts-thumb/Fn/7Xsdhx/eb/pancreas_grp_searchimage/jpg/1615544254/600x600/fit_q87/c1c1df93a9011a23233c620a28c8f0f32c0fe761/pancreas_grp_searchimage.jpg",
+          "text": "Le pancréas joue un rôle essentiel dans la digestion en produisant le suc pancréatique. Ce suc contient des enzymes clés (amylase pour les glucides, lipase pour les lipides, trypsine/chymotrypsine pour les protéines) et du bicarbonate, qui neutralise l'acide provenant de l'estomac, créant un environnement optimal pour l'action enzymatique dans l'intestin grêle."
+        },
+        {
+          "type": "question",
+          "image": "https://cdn.futura-sciences.com/cdn-cgi/image/width=1024,quality=60,format=auto/sources/images/systeme-digestif-colon-intestin.jpeg",
+          "question": "Quelle est la fonction principale du gros intestin (côlon) ?",
+          "choices": [
+            { "label": "Absorption de l'eau et formation des selles", "emoji": "💧💩", "image": "https://cdn-icons-png.flaticon.com/512/6684/6684482.png" },
+            { "label": "Digestion des protéines", "emoji": "🥩", "image": "https://cdn-icons-png.flaticon.com/512/1656/1656157.png" },
+            { "label": "Production de bile", "emoji": "🏭", "image": "https://cdn-icons-png.flaticon.com/512/9956/9956932.png" },
+            { "label": "Absorption des vitamines liposolubles", "emoji": "💊", "image": "https://cdn-icons-png.flaticon.com/512/3047/3047656.png" }
+          ],
+          "hints": [
+            "Dernière partie majeure du tube digestif",
+            "Abrite une flore bactérienne importante (microbiote)",
+            "Compacte les résidus non digestibles"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "info",
+          "image": "https://cdn3d.iconscout.com/3d/premium/thumb/gros-intestin-11107565-8938863.png",
+          "text": "Le gros intestin, principalement le côlon, a pour rôle majeur d'absorber l'eau et les électrolytes restants des matières indigestes. Il héberge également le microbiote intestinal qui fermente certaines fibres et produit des vitamines. Enfin, il forme, stocke et élimine les selles (matières fécales)."
+        },
+        {
+          "type": "question",
+          "image": "https://cdn.futura-sciences.com/cdn-cgi/image/width=1024,quality=50,format=auto/sources/images/glossaire/Celine/acide%20cyanhydrique%20%20Schlierner%2C%20Adobe%20Stock%20.jpeg",
+          "question": "Quelle substance acide produite par l'estomac aide à dénaturer les protéines et à tuer les bactéries ?",
+          "choices": [
+            { "label": "Acide chlorhydrique (HCl)", "emoji": "🧪", "image": "https://www.groupesomavrac.com/wp-content/uploads/2019/07/acide-chlorhydrique-_-hydrochloric-acid.jpg" },
+            { "label": "Bile", "emoji": "🟢", "image": "https://cdn-icons-png.flaticon.com/512/9956/9956931.png" },
+            { "label": "Amylase", "emoji": "🍞", "image": "https://cdn-icons-png.flaticon.com/512/8846/8846932.png" },
+            { "label": "Bicarbonate", "emoji": "🛡️", "image": "https://cdn-icons-png.flaticon.com/512/1772/1772832.png" }
+          ],
+          "hints": [
+            "Rend le pH de l'estomac très bas (entre 1.5 et 3.5)",
+            "Active le pepsinogène en pepsine",
+            "Composant majeur du suc gastrique"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "info",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3l-oNNBw3mjHkKonEdp7tHayzJJBFAnxREw&s",
+          "text": "L'estomac sécrète de l'acide chlorhydrique (HCl), un acide fort qui abaisse considérablement le pH. Cet environnement acide est crucial pour dénaturer les protéines (déplier leur structure), activer la pepsine (enzyme qui digère les protéines) et éliminer la plupart des micro-organismes ingérés avec les aliments."
+        },
+            {
+          "type": "question",
+          "image": "https://img-3.journaldesfemmes.fr/HuE5EK0dOgqNAxwEnrI6Cym3Jsg=/1500x/smart/a2556711b7a4414e8c01ad116f662770/ccmcms-jdf/18558296.jpg",
+          "question": "Quelles structures microscopiques tapissent l'intestin grêle pour augmenter massivement sa surface d'absorption ?",
+          "choices": [
+            { "label": "Villosités et microvillosités", "emoji": "🖐️", "image": "https://cdn-icons-png.flaticon.com/512/10172/10172534.png" },
+            { "label": "Capillaires", "emoji": "👜", "image": "https://cdn-icons-png.flaticon.com/512/3904/3904449.png" },
+            { "label": "Nerds", "emoji": "〰️", "image": "https://cdn-icons-png.flaticon.com/256/4852/4852358.png" },
+            { "label": "Cryptes de Lieberkühn", "emoji": "🕳️", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0KO_s4yiEOSMkQfIX75hzowaWVgArS1dkdw&s" }
+          ],
+          "hints": [
+            "Projections en forme de doigts",
+            "Recouvertes elles-mêmes de plus petites projections (bordure en brosse)",
+            "Donnent un aspect velouté à la paroi intestinale"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "info",
+          "image": "https://enterofytol.be/wp-content/uploads/2016/07/schema-vellosites-intestinales-FR.jpg",
+          "text": "La paroi interne de l'intestin grêle est tapissée de replis, de villosités (projections digitiformes) et de microvillosités (sur les cellules des villosités). Ces structures augmentent considérablement la surface de contact (jusqu'à 250 m²), optimisant ainsi l'absorption des nutriments digérés dans la circulation sanguine et lymphatique."
         }
       ]
     },
@@ -96,46 +228,201 @@
       "slides": [
         {
           "type": "question",
-          "image": "/placeholder.svg?height=400&width=400&text=Cœur",
+          "image": "https://cdn.futura-sciences.com/cdn-cgi/image/width=1024,quality=50,format=auto/sources/images/dossier/1474/01-intro-1474.jpg",
           "question": "Quelle chambre du cœur pompe le sang vers les poumons ?",
           "choices": [
-            { "label": "Ventricule Droit", "emoji": "💨", "image": "/images/ventricule-droit.jpg" },
-            { "label": "Ventricule Gauche", "emoji": "🫀", "image": "/images/ventricule-gauche.jpg" },
-            { "label": "Oreillette Droite", "emoji": "🔄", "image": "/images/oreillette-droite.jpg" },
-            { "label": "Oreillette Gauche", "emoji": "🩸", "image": "/images/oreillette-gauche.jpg" }
+            { "label": "Ventricule Droit", "emoji": "💨", "image": "https://cdn-icons-png.flaticon.com/512/16800/16800208.png" },
+            { "label": "Ventricule Gauche", "emoji": "🌍", "image": "https://cdn-icons-png.flaticon.com/512/892/892646.png" },
+            { "label": "Oreillette Droite", "emoji": "📥", "image": "https://cdn-icons-png.flaticon.com/512/6066/6066691.png" },
+            { "label": "Oreillette Gauche", "emoji": "🌬️", "image": "https://cdn-icons-png.flaticon.com/512/6066/6066770.png" }
           ],
           "hints": [
-            "Il est du même côté que la main avec laquelle vous n'écrivez pas (pour la plupart des gens)",
-            "Il pompe le sang désoxygéné",
-            "C'est une chambre inférieure du cœur"
+            "Reçoit le sang pauvre en oxygène du corps.",
+            "Pompe le sang vers l'artère pulmonaire.",
+            "C'est une chambre inférieure du cœur, côté droit."
           ],
           "correctIndex": 0
         },
         {
           "type": "info",
-          "image": "/placeholder.svg?height=400&width=400&text=Chambres%20du%20Cœur",
-          "text": "Le ventricule droit est l'une des quatre chambres du cœur. Il reçoit le sang désoxygéné de l'oreillette droite et le pompe vers l'artère pulmonaire, qui le transporte aux poumons pour l'oxygénation."
+          "image": "https://assets-us-01.kc-usercontent.com/6239a81e-8f0f-0040-a1df-b4932a10f6ae/f176758d-2e7c-474b-bcd7-9c49588f21c9/infographic-fr-1028-mobile-01.jpg",
+          "text": "Le ventricule droit est l'une des quatre chambres du cœur. Il reçoit le sang pauvre en oxygène (désoxygéné) de l'oreillette droite et le pompe vers l'artère pulmonaire, qui le transporte jusqu'aux poumons pour qu'il se recharge en oxygène."
         },
         {
           "type": "question",
-          "image": "/placeholder.svg?height=400&width=400&text=Vaisseaux%20Sanguins",
-          "question": "Quels vaisseaux sanguins transportent le sang loin du cœur ?",
+          "image": "https://media.carians.fr/deuxiemeavis/blog/l-angiographie-un-examen-pour-analyser-les-vaisseaux-sanguins.png",
+          "question": "Quels vaisseaux sanguins transportent le sang en s'éloignant du cœur ?",
           "choices": [
-            { "label": "Artères", "emoji": "🚀", "image": "/images/arteres.jpg" },
-            { "label": "Veines", "emoji": "🔙", "image": "/images/veines.jpg" },
-            { "label": "Capillaires", "emoji": "🕸️", "image": "/images/capillaires.jpg" },
-            { "label": "Veinules", "emoji": "🧵", "image": "/images/veinules.jpg" }
+            { "label": "Artères", "emoji": "🚀", "image": "https://cdn-icons-png.flaticon.com/512/7403/7403261.png" },
+            { "label": "Veines", "emoji": "🔙", "image": "https://cdn-icons-png.flaticon.com/512/4012/4012259.png" },
+            { "label": "Capillaires", "emoji": "🕸️", "image": "https://cdn-icons-png.flaticon.com/512/3904/3904449.png" },
+            { "label": "Veinules", "emoji": "🧵", "image": "https://cdn-icons-png.flaticon.com/512/2864/2864320.png" }
           ],
           "hints": [
-            "Ils ont des parois plus épaisses",
-            "Ils transportent généralement du sang oxygéné (sauf un)",
-            "Ils ont un pouls que vous pouvez sentir"
-          ]
+            "Leurs parois sont épaisses et élastiques.",
+            "Elles transportent le sang sous haute pression.",
+            "La plus grosse s'appelle l'aorte."
+          ],
+          "correctIndex": 0
         },
         {
           "type": "info",
-          "image": "/placeholder.svg?height=400&width=400&text=Artères",
-          "text": "Les artères sont des vaisseaux sanguins qui transportent le sang du cœur vers les tissus du corps. Elles ont des parois épaisses et élastiques pour gérer la haute pression du sang pompé par le cœur. La plupart des artères transportent du sang oxygéné, à l'exception de l'artère pulmonaire."
+          "image": "https://www.fedecardio.org/wp-content/uploads/2021/03/ffc_je_m_informe_les_arteres_et_les_veines-1568x686.jpg",
+          "text": "Les artères sont les vaisseaux sanguins qui partent du cœur pour distribuer le sang au reste du corps. Elles doivent être solides car le sang y circule avec force. La plupart transportent du sang riche en oxygène, sauf l'artère pulmonaire."
+        },
+        {
+          "type": "question",
+          "image": "https://www.sciencesetavenir.fr/assets/img/2022/03/22/cover-r4x3w1200-6239adc3a7233-049-f0256784.jpg",
+          "question": "Quelle chambre du cœur pompe le sang oxygéné vers tout le corps ?",
+          "choices": [
+            { "label": "Ventricule Droit", "emoji": "💨", "image": "https://cdn-icons-png.flaticon.com/512/16800/16800208.png" },
+            { "label": "Ventricule Gauche", "emoji": "🌍", "image": "https://cdn-icons-png.flaticon.com/512/892/892646.png" },
+            { "label": "Oreillette Droite", "emoji": "📥", "image": "https://cdn-icons-png.flaticon.com/512/6066/6066691.png" },
+            { "label": "Oreillette Gauche", "emoji": "🌬️", "image": "https://cdn-icons-png.flaticon.com/512/6066/6066770.png" }
+          ],
+          "hints": [
+            "C'est la chambre la plus musclée du cœur.",
+            "Elle reçoit le sang venant des poumons.",
+            "Elle pompe le sang dans l'aorte."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "type": "info",
+          "image": "https://assets-us-01.kc-usercontent.com/6239a81e-8f0f-0040-a1df-b4932a10f6ae/b1fef394-e99e-47e4-9ae8-b997f1489860/infographic-fr-1028-01.jpg?q=75&w=1920&auto=format&fm=webp&lossless=true",
+          "text": "Le ventricule gauche est la chambre la plus puissante du cœur. Il reçoit le sang riche en oxygène de l'oreillette gauche (qui vient des poumons) et le propulse avec force dans l'aorte, la plus grande artère, pour irriguer tous les organes du corps."
+        },
+        {
+          "type": "question",
+          "image": "/placeholder.svg?height=400&width=400&text=Vaisseaux%20de%20Retour",
+          "question": "Quels vaisseaux sanguins ramènent le sang vers le cœur ?",
+          "choices": [
+            { "label": "Veines", "emoji": "🔙", "image": "https://cdn-icons-png.flaticon.com/512/6836/6836150.png" },
+            { "label": "Artères", "emoji": "🚀", "image": "https://cdn-icons-png.flaticon.com/512/7403/7403261.png" },
+            { "label": "Capillaires", "emoji": "🕸️", "image": "https://cdn-icons-png.flaticon.com/512/3904/3904449.png" },
+            { "label": "Artérioles", "emoji": "🚦", "image": "https://cdn-icons-png.flaticon.com/512/3817/3817891.png" }
+          ],
+          "hints": [
+            "Elles ont des parois plus fines que les artères.",
+            "Elles contiennent des valvules pour empêcher le sang de reculer.",
+            "Elles transportent souvent du sang pauvre en oxygène (sauf une)."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "info",
+          "image": "https://sf2.topsante.com/wp-content/uploads/topsante/2023/09/veines-arteres-quelles-differences.jpg",
+          "text": "Les veines sont les vaisseaux qui collectent le sang des organes et le ramènent vers le cœur. La pression y est plus faible que dans les artères. La plupart transportent du sang pauvre en oxygène, sauf les veines pulmonaires qui ramènent le sang oxygéné des poumons au cœur."
+        },
+        {
+          "type": "question",
+          "image": "https://www.segulatechnologies.com/wp-content/uploads/2021/02/i3d_artere_desktop.jpg",
+          "question": "Quels sont les plus petits vaisseaux sanguins où se font les échanges (oxygène, nutriments) avec les cellules ?",
+          "choices": [
+            { "label": "Capillaires", "emoji": "🕸️", "image": "https://cdn-icons-png.flaticon.com/512/3904/3904449.png" },
+            { "label": "Artères", "emoji": "🚀", "image": "https://cdn-icons-png.flaticon.com/512/7403/7403261.png" },
+            { "label": "Veines", "emoji": "🔙", "image": "https://cdn-icons-png.flaticon.com/512/6836/6836150.png" },
+            { "label": "Aorte", "emoji": "🌳", "image": "https://cdn-icons-png.flaticon.com/512/18049/18049814.png" }
+          ],
+          "hints": [
+            "Leurs parois sont très fines (une seule couche de cellules).",
+            "Ils forment un réseau dense dans les tissus.",
+            "Ils relient les artérioles aux veinules."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "info",
+          "image": "https://blogglophys.wordpress.com/wp-content/uploads/2015/08/capillaires-sanguins.png?w=660",
+          "text": "Les capillaires sont des vaisseaux sanguins microscopiques. Leur paroi extrêmement fine permet les échanges essentiels entre le sang et les cellules des organes : l'oxygène et les nutriments passent du sang aux cellules, tandis que le dioxyde de carbone et les déchets passent des cellules au sang."
+        },
+        {
+          "type": "question",
+          "image": "https://medias.pourlascience.fr/api/v1/images/view/5a82aad48fe56f22787ffe23/wide_1300/image.jpg",
+          "question": "Quel composant du sang est principalement responsable du transport de l'oxygène ?",
+          "choices": [
+            { "label": "Globules Rouges (Hématies)", "emoji": "🅾️", "image": "https://cdn-icons-png.flaticon.com/512/11468/11468669.png" },
+            { "label": "Globules Blancs (Leucocytes)", "emoji": "🛡️", "image": "https://cdn-icons-png.flaticon.com/512/6167/6167911.png" },
+            { "label": "Plaquettes (Thrombocytes)", "emoji": "🩹", "image": "https://cdn-icons-png.flaticon.com/512/10251/10251007.png" },
+            { "label": "Plasma", "emoji": "💧", "image": "https://cdn-icons-png.flaticon.com/512/5842/5842750.png" }
+          ],
+          "hints": [
+            "Ils donnent sa couleur rouge au sang.",
+            "Ils contiennent une protéine appelée hémoglobine.",
+            "Ils sont les cellules les plus nombreuses dans le sang."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "info",
+          "image": "https://actu.epfl.ch/image/13592/640x360.jpg",
+          "text": "Les globules rouges, aussi appelés hématies, sont des cellules spécialisées dans le transport de l'oxygène. Grâce à l'hémoglobine qu'ils contiennent, ils captent l'oxygène dans les poumons et le livrent à toutes les cellules du corps. Ils récupèrent aussi une partie du dioxyde de carbone."
+        },
+        {
+          "type": "question",
+          "image": "https://img-3.journaldesfemmes.fr/q_LlX89pJF6pyMzZlHquzU5_FFA=/1500x/smart/ec2963dca32e40e68b43b96936fb17be/ccmcms-jdf/16686725.jpg",
+          "question": "Quel composant du sang aide le corps à lutter contre les infections et les maladies ?",
+          "choices": [
+            { "label": "Globules Rouges (Hématies)", "emoji": "🅾️", "image": "https://cdn-icons-png.flaticon.com/512/11468/11468669.png" },
+            { "label": "Globules Blancs (Leucocytes)", "emoji": "🛡️", "image": "https://cdn-icons-png.flaticon.com/512/6167/6167911.png" },
+            { "label": "Plaquettes (Thrombocytes)", "emoji": "🩹", "image": "https://cdn-icons-png.flaticon.com/512/10251/10251007.png" },
+            { "label": "Hémoglobine", "emoji": "🔗", "image": "https://cdn-icons-png.flaticon.com/256/8638/8638518.png" }
+          ],
+          "hints": [
+            "Ils font partie du système immunitaire.",
+            "Il en existe plusieurs types avec des rôles différents.",
+            "Leur nombre augmente en cas d'infection."
+          ],
+          "correctIndex": 1
+        },
+        {
+          "type": "info",
+          "image": "https://img.passeportsante.net/1200x675/2021-05-03/i103470-leucocytes.jpg",
+          "text": "Les globules blancs, ou leucocytes, sont les cellules de défense de notre organisme. Ils circulent dans le sang et les tissus pour identifier et détruire les microbes (bactéries, virus), les cellules anormales et autres agents étrangers, protégeant ainsi le corps des maladies."
+        },
+        {
+          "type": "question",
+          "image": "https://www.pharma-gdd.com/cache/advice_original/stopper-saignement.jpg",
+          "question": "Quel composant du sang aide à arrêter les saignements en formant des caillots ?",
+          "choices": [
+            { "label": "Globules Rouges (Hématies)", "emoji": "🅾️", "image": "https://cdn-icons-png.flaticon.com/512/11468/11468669.png" },
+            { "label": "Globules Blancs (Leucocytes)", "emoji": "🛡️", "image": "https://cdn-icons-png.flaticon.com/512/6167/6167911.png" },
+            { "label": "Plaquettes (Thrombocytes)", "emoji": "🩹", "image": "https://cdn-icons-png.flaticon.com/512/10251/10251007.png" },
+            { "label": "Plasma", "emoji": "💧", "image": "https://cdn-icons-png.flaticon.com/512/5842/5842750.png" }
+          ],
+          "hints": [
+            "Ce sont de petits fragments de cellules.",
+            "Ils s'agglutinent sur une blessure.",
+            "Ils initient la cascade de coagulation."
+          ],
+          "correctIndex": 2
+        },
+        {
+          "type": "info",
+          "image": "https://img-3.journaldesfemmes.fr/pHLUIiGPY9xBEQuOGgzN1yF4LE4=/1500x/smart/13fbabc3eaa54dc19cc642d6d1e46ff5/ccmcms-jdf/33027725.jpg",
+          "text": "Les plaquettes, ou thrombocytes, sont de petits éléments présents dans le sang dont le rôle principal est la coagulation. Lorsqu'un vaisseau sanguin est blessé, les plaquettes s'activent, adhèrent à la paroi et s'agrègent pour former un 'bouchon' (clou plaquettaire), première étape pour arrêter le saignement."
+        },
+        {
+          "type": "question",
+          "image": "https://www.simplyscience.ch/fileadmin/_processed_/9/c/csm_Blutzellen-Illustration_2434765_420afcfea9.jpg",
+          "question": "Comment s'appelle la partie liquide jaunâtre du sang, composée principalement d'eau ?",
+          "choices": [
+            { "label": "Plasma", "emoji": "💧", "image": "https://cdn-icons-png.flaticon.com/512/5842/5842750.png" },
+            { "label": "Sérum", "emoji": "🧪", "image": "https://cdn-icons-png.flaticon.com/512/1165/1165572.png" },
+            { "label": "Lymphe", "emoji": " lymphatic", "image": "https://cdn-icons-png.flaticon.com/512/7292/7292518.png" },
+            { "label": "Hémoglobine", "emoji": "🔗", "image": "https://cdn-icons-png.flaticon.com/256/8638/8638518.png" }
+          ],
+          "hints": [
+            "Il représente plus de la moitié du volume sanguin.",
+            "Il transporte les cellules sanguines, les nutriments, les hormones...",
+            "Il contient des protéines importantes (ex: albumine, anticorps)."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "info",
+          "image": "https://img-3.journaldesfemmes.fr/1vGqsvMY4MBX9N47ge6CCYlB2Y4=/1080x/smart/9f76c704e8454cf398206c12eac6e47b/ccmcms-jdf/39646135.jpg",
+          "text": "Le plasma est la composante liquide du sang, dans laquelle baignent les globules rouges, les globules blancs et les plaquettes. Constitué à 90% d'eau, il transporte également des nutriments (sucres, graisses, vitamines), des hormones, des protéines, des sels minéraux et des déchets métaboliques."
         }
       ]
     },
@@ -145,45 +432,113 @@
       "slides": [
         {
           "type": "question",
-          "image": "/placeholder.svg?height=400&width=400&text=Poumons",
-          "question": "Où se produit l'échange gazeux dans les poumons ?",
+          "image": "https://img.passeportsante.net/1200x675/2021-05-03/i103543-poumons.webp",
+          "question": "Où se produit l'échange principal des gaz (oxygène et dioxyde de carbone) dans les poumons ?",
           "choices": [
-            { "label": "Alvéoles", "emoji": "🫧", "image": "/images/alveoles.jpg" },
-            { "label": "Bronches", "emoji": "🌳", "image": "/images/bronches.jpg" },
-            { "label": "Trachée", "emoji": "🧠", "image": "/images/trachee.jpg" },
-            { "label": "Larynx", "emoji": "🗣️", "image": "/images/larynx.jpg" }
+            { "label": "Alvéoles", "emoji": "🫧", "image": "https://cdn-icons-png.flaticon.com/512/9286/9286170.png" },
+            { "label": "Bronches", "emoji": "🌳", "image": "https://cdn-icons-png.flaticon.com/512/4702/4702321.png" },
+            { "label": "Trachée", "emoji": "🌬️", "image": "https://cdn-icons-png.flaticon.com/512/3817/3817023.png" },
+            { "label": "Larynx", "emoji": "🗣️", "image": "https://cdn-icons-png.flaticon.com/512/3904/3904562.png" }
           ],
           "hints": [
-            "Ce sont de minuscules sacs d'air",
-            "Ils sont entourés de capillaires",
-            "Il y en a des millions dans vos poumons"
-          ]
+            "Ce sont de minuscules sacs d'air.",
+            "Ils sont au bout des plus petites voies aériennes.",
+            "Leur paroi est très fine et entourée de capillaires sanguins."
+          ],
+          "correctIndex": 0
         },
         {
           "type": "info",
-          "image": "/placeholder.svg?height=400&width=400&text=Alvéoles",
-          "text": "Les alvéoles sont de minuscules sacs d'air dans les poumons où se produit l'échange gazeux. L'oxygène de l'air inhalé passe dans la circulation sanguine, et le dioxyde de carbone passe du sang dans les alvéoles pour être exhalé. Leur grande surface et leurs parois minces facilitent un échange gazeux efficace."
+          "image": "https://img-3.journaldesfemmes.fr/5stYL0HCvJdG66-naBbeFvLptpk=/1500x/smart/d07c4dea50dc4a5d89765fb71a5b39ae/ccmcms-jdf/39670596.jpg",
+          "text": "Les alvéoles pulmonaires sont des millions de petits sacs situés à l'extrémité des bronchioles. C'est à leur niveau que l'oxygène de l'air inspiré passe dans le sang des capillaires, et que le dioxyde de carbone du sang passe dans l'air pour être expiré. C'est la zone d'échange gazeux."
         },
         {
           "type": "question",
-          "image": "/placeholder.svg?height=400&width=400&text=Respiration",
-          "question": "Quel muscle est principalement responsable de la respiration ?",
+          "image": "https://static1.assistancescolaire.com/col/images/5sre0203.png",
+          "question": "Quel est le muscle principal qui permet l'inspiration (faire entrer l'air) ?",
           "choices": [
-            { "label": "Diaphragme", "emoji": "🧘", "image": "/images/diaphragme.jpg" },
-            { "label": "Muscles Intercostaux", "emoji": "🏋️", "image": "/images/muscles-intercostaux.jpg" },
-            { "label": "Muscles Abdominaux", "emoji": "💪", "image": "/images/muscles-abdominaux.jpg" },
-            { "label": "Grand Pectoral", "emoji": "🏊", "image": "/images/grand-pectoral.jpg" }
+            { "label": "Diaphragme", "emoji": "🧘", "image": "https://cdn-icons-png.flaticon.com/512/5877/5877625.png" },
+            { "label": "Poumons", "emoji": "🌬️", "image": "https://cdn-icons-png.flaticon.com/512/4462/4462498.png" },
+            { "label": "Trachée", "emoji": "🫁", "image": "https://cdn-icons-png.flaticon.com/512/3817/3817023.png" },
+            { "label": "Côtes", "emoji": "🦴", "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwyfAHn425EeL9bUWRp8NjgGEWRpFpkksuJA&s" }
           ],
           "hints": [
-            "Il sépare la poitrine de l'abdomen",
-            "Il se contracte et s'aplatit lorsque vous inspirez",
-            "Il a une forme de dôme lorsqu'il est détendu"
-          ]
+            "Il sépare la cage thoracique de l'abdomen.",
+            "Il se contracte et descend pour augmenter le volume de la poitrine.",
+            "Il a une forme de dôme au repos."
+          ],
+          "correctIndex": 0
         },
         {
           "type": "info",
-          "image": "/placeholder.svg?height=400&width=400&text=Diaphragme",
-          "text": "Le diaphragme est un muscle en forme de dôme qui sépare la poitrine de l'abdomen. Lorsqu'il se contracte, il s'aplatit et descend, augmentant le volume de la cavité thoracique et provoquant l'entrée d'air dans les poumons. Lorsqu'il se détend, il reprend sa forme de dôme, diminuant le volume thoracique et provoquant l'expiration."
+          "image": "https://i0.wp.com/artdelarespiration.fr/wp-content/uploads/2019/01/diaphragme-respiration.jpg?fit=768%2C960&ssl=1",
+          "text": "Le diaphragme est le muscle respiratoire le plus important. Situé sous les poumons, il se contracte et s'abaisse lors de l'inspiration, ce qui agrandit la cage thoracique et aspire l'air dans les poumons. Sa relaxation permet l'expiration."
+        },
+        {
+          "type": "question",
+          "image": "https://img.passeportsante.net/1200x675/2023-10-18/oesophage.webp",
+          "question": "Par quelle structure l'air passe-t-il juste après avoir quitté le pharynx (gorge) pour aller vers les poumons ?",
+          "choices": [
+            { "label": "Larynx", "emoji": "🗣️", "image": "https://cdn-icons-png.flaticon.com/512/3904/3904562.png" },
+            { "label": "Œsophage", "emoji": "🍔", "image": "https://cdn-icons-png.flaticon.com/512/3816/3816904.png" },
+            { "label": "Bronches", "emoji": "🌳", "image": "https://cdn-icons-png.flaticon.com/512/4702/4702321.png" },
+            { "label": "Alvéoles", "emoji": "🫧", "image": "https://cdn-icons-png.flaticon.com/512/9286/9286170.png" }
+          ],
+          "hints": [
+            "Il contient les cordes vocales.",
+            "On l'appelle aussi la 'boîte vocale'.",
+            "Il se situe avant la trachée."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "info",
+          "image": "https://www.larousse.fr/encyclopedie/data/images/1001952-Larynx.jpg",
+          "text": "Après le pharynx, l'air inspiré passe par le larynx. Le larynx n'est pas seulement un conduit pour l'air, il abrite également les cordes vocales, responsables de la production des sons. Il protège aussi l'entrée de la trachée."
+        },
+        {
+          "type": "question",
+          "image": "https://actumus.com/wp-content/uploads/2022/01/lungs.jpg",
+          "question": "Comment s'appelle le gros tube qui conduit l'air du larynx vers les bronches ?",
+          "choices": [
+            { "label": "Trachée", "emoji": "🌬️", "image": "https://cdn-icons-png.flaticon.com/512/3817/3817023.png" },
+            { "label": "Œsophage", "emoji": "🍔", "image": "https://cdn-icons-png.flaticon.com/512/3816/3816904.png" },
+            { "label": "Aorte", "emoji": "❤️", "image": "https://cdn-icons-png.flaticon.com/512/18049/18049814.png" },
+            { "label": "Pharynx", "emoji": "😮", "image": "https://cdn-icons-png.flaticon.com/512/3817/3817919.png" }
+          ],
+          "hints": [
+            "Il est maintenu ouvert par des anneaux de cartilage.",
+            "Il est situé devant l'œsophage.",
+            "On l'appelle parfois 'tuyau du vent'."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "info",
+          "image": "https://www.aquaportail.com/pictures2106/trachee.jpg",
+          "text": "La trachée est le conduit principal qui achemine l'air depuis le larynx jusqu'aux bronches. Ses parois sont renforcées par des anneaux de cartilage en forme de C qui l'empêchent de s'affaisser et assurent ainsi le passage constant de l'air."
+        },
+        {
+          "type": "question",
+          "image": "https://img.freepik.com/vecteurs-libre/poumons-dans-style-icone-plate_1308-126073.jpg?semt=ais_hybrid&w=740",
+          "question": "La trachée se divise en deux tubes principaux qui entrent chacun dans un poumon. Comment s'appellent ces tubes ?",
+          "choices": [
+            { "label": "Bronches souches (droite et gauche)", "emoji": "🌳", "image": "https://cdn-icons-png.flaticon.com/512/4702/4702321.png" },
+            { "label": "Bronchioles", "emoji": "🌿", "image": "https://cdn-icons-png.flaticon.com/512/954/954382.png" },
+            { "label": "Alvéoles", "emoji": "🫧", "image": "https://cdn-icons-png.flaticon.com/512/9286/9286170.png" },
+            { "label": "Artères pulmonaires", "emoji": "💨", "image": "https://cdn-icons-png.flaticon.com/512/3817/3817891.png" }
+          ],
+          "hints": [
+            "Elles ressemblent aux premières grosses branches d'un arbre.",
+            "Elles conduisent l'air vers les poumons respectifs.",
+            "Elles se subdivisent ensuite en plus petits tubes."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "info",
+          "image": "https://www.aquaportail.com/pictures2112/bronches.jpg",
+          "text": "Au niveau de la carène, la trachée se divise en deux bronches souches, une pour chaque poumon. Ces bronches pénètrent dans les poumons et se ramifient ensuite en bronches de plus en plus petites, formant l'arbre bronchique, pour distribuer l'air."
         }
       ]
     },
@@ -193,41 +548,201 @@
       "slides": [
         {
           "type": "question",
-          "image": "/placeholder.svg?height=400&width=400&text=Vitamines",
-          "question": "Quelle vitamine est produite lorsque la peau est exposée à la lumière du soleil ?",
+          "image": "/placeholder.svg?height=400&width=400&text=Vitamines%20et%20Soleil",
+          "question": "Quelle vitamine est principalement produite lorsque notre peau est exposée aux rayons UV du soleil ?",
           "choices": [
             { "label": "Vitamine D", "emoji": "☀️", "image": "/images/vitamine-d.jpg" },
             { "label": "Vitamine C", "emoji": "🍊", "image": "/images/vitamine-c.jpg" },
             { "label": "Vitamine A", "emoji": "🥕", "image": "/images/vitamine-a.jpg" },
-            { "label": "Vitamine B12", "emoji": "🥩", "image": "/images/vitamine-b12.jpg" }
+            { "label": "Vitamine K", "emoji": "🥬", "image": "/images/vitamine-k.jpg" }
           ],
-          "hints": ["Elle aide à l'absorption du calcium", "Sa carence peut conduire au rachitisme", "Elle est liposoluble"]
+          "hints": [
+            "Elle est essentielle pour la santé des os.",
+            "Elle aide le corps à absorber le calcium.",
+            "On l'appelle parfois la 'vitamine du soleil'."
+          ],
+          "correctIndex": 0
         },
         {
           "type": "info",
           "image": "/placeholder.svg?height=400&width=400&text=Vitamine%20D",
-          "text": "La vitamine D est unique car votre corps peut la produire lorsque votre peau est exposée à la lumière du soleil. Elle joue un rôle crucial dans l'absorption du calcium et la santé des os. Sa carence peut entraîner des conditions comme le rachitisme chez les enfants et l'ostéomalacie chez les adultes."
+          "text": "La vitamine D est unique car notre corps peut la fabriquer grâce à l'exposition au soleil. Elle est cruciale pour l'absorption du calcium, essentiel pour des os et des dents solides. On la trouve aussi dans certains aliments (poissons gras, œufs, produits laitiers enrichis)."
         },
         {
           "type": "question",
-          "image": "/placeholder.svg?height=400&width=400&text=Macronutriments",
-          "question": "Quel macronutriment fournit le plus d'énergie par gramme ?",
+          "image": "/placeholder.svg?height=400&width=400&text=Macronutriments%20Énergie",
+          "question": "Parmi ces trois macronutriments, lequel fournit le plus d'énergie (calories) par gramme ?",
           "choices": [
-            { "label": "Lipides", "emoji": "🧈", "image": "/images/lipides.jpg" },
-            { "label": "Glucides", "emoji": "🍚", "image": "/images/glucides.jpg" },
+            { "label": "Lipides (Graisses)", "emoji": "🧈", "image": "/images/lipides.jpg" },
+            { "label": "Glucides (Sucres)", "emoji": "🍚", "image": "/images/glucides.jpg" },
             { "label": "Protéines", "emoji": "🥩", "image": "/images/proteines.jpg" },
-            { "label": "Fibres", "emoji": "🌾", "image": "/images/fibres.jpg" }
+            { "label": "Eau", "emoji": "💧", "image": "/images/eau.jpg" }
           ],
           "hints": [
-            "Il fournit 9 calories par gramme",
-            "Il est stocké dans le tissu adipeux",
-            "C'est un bon isolant pour le corps"
-          ]
+            "Fournit 9 kcal par gramme.",
+            "Les glucides et protéines en fournissent environ 4 kcal/g.",
+            "Ils servent aussi de réserve d'énergie."
+          ],
+          "correctIndex": 0
         },
         {
           "type": "info",
-          "image": "/placeholder.svg?height=400&width=400&text=Lipides",
-          "text": "Les lipides fournissent 9 calories par gramme, ce qui en fait le macronutriment le plus dense en énergie (comparé à 4 calories par gramme pour les glucides et les protéines). Ils sont essentiels pour l'absorption des vitamines liposolubles, l'isolation et la protection des organes."
+          "image": "/placeholder.svg?height=400&width=400&text=Énergie%20des%20Lipides",
+          "text": "Les lipides (graisses) sont la source d'énergie la plus concentrée : 1 gramme de lipides apporte 9 kilocalories (kcal), contre 4 kcal pour 1 gramme de glucides ou de protéines. Ils sont essentiels mais doivent être consommés avec modération."
+        },
+        {
+          "type": "question",
+          "image": "/placeholder.svg?height=400&width=400&text=Construction%20Corps",
+          "question": "Quel macronutriment est le principal 'matériau de construction' du corps, essentiel pour les muscles, la peau et les cheveux ?",
+          "choices": [
+            { "label": "Protéines", "emoji": "🏗️", "image": "/images/proteines-construction.jpg" },
+            { "label": "Glucides", "emoji": "⚡", "image": "/images/glucides-energie.jpg" },
+            { "label": "Lipides", "emoji": "🧱", "image": "/images/lipides-reserve.jpg" },
+            { "label": "Vitamines", "emoji": "💊", "image": "/images/vitamines-regulation.jpg" }
+          ],
+          "hints": [
+            "On les trouve dans la viande, le poisson, les œufs, les légumineuses...",
+            "Elles sont composées d'acides aminés.",
+            "Elles jouent un rôle dans la réparation des tissus."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "info",
+          "image": "/placeholder.svg?height=400&width=400&text=Rôle%20des%20Protéines",
+          "text": "Les protéines sont indispensables à la construction et à la réparation de tous les tissus du corps : muscles, peau, os, cheveux... Elles entrent aussi dans la composition des enzymes et des hormones. Il est important d'en consommer suffisamment chaque jour."
+        },
+        {
+          "type": "question",
+          "image": "/placeholder.svg?height=400&width=400&text=Carburant%20Rapide",
+          "question": "Quel macronutriment est la source d'énergie préférée et la plus rapidement utilisable par le corps, notamment par le cerveau ?",
+          "choices": [
+            { "label": "Glucides", "emoji": "🚀", "image": "/images/glucides-rapide.jpg" },
+            { "label": "Protéines", "emoji": "💪", "image": "/images/proteines-lent.jpg" },
+            { "label": "Lipides", "emoji": "🐢", "image": "/images/lipides-stock.jpg" },
+            { "label": "Fibres", "emoji": "🥦", "image": "/images/fibres-non-energetique.jpg" }
+          ],
+          "hints": [
+            "On les trouve dans le pain, les pâtes, le riz, les fruits, les sucreries...",
+            "Ils sont transformés en glucose dans le sang.",
+            "Il existe des glucides simples (rapides) et complexes (lents)."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "info",
+          "image": "/placeholder.svg?height=400&width=400&text=Rôle%20des%20Glucides",
+          "text": "Les glucides sont le principal 'carburant' de notre organisme. Ils fournissent l'énergie rapidement utilisable par nos cellules, en particulier pour le cerveau et les muscles lors d'un effort. Il est préférable de choisir des glucides complexes (céréales complètes, légumineuses) qui libèrent leur énergie plus lentement."
+        },
+        {
+          "type": "question",
+          "image": "/placeholder.svg?height=400&width=400&text=Fibres%20Alimentaires",
+          "question": "Quel composant des aliments d'origine végétale aide à la digestion et au transit intestinal, bien qu'il ne soit pas digéré ?",
+          "choices": [
+            { "label": "Fibres", "emoji": "🌾", "image": "/images/fibres.jpg" },
+            { "label": "Amidon", "emoji": "🥔", "image": "/images/amidon.jpg" },
+            { "label": "Glucose", "emoji": "🍬", "image": "/images/glucose.jpg" },
+            { "label": "Cholestérol", "emoji": "🍳", "image": "/images/cholesterol.jpg" }
+          ],
+          "hints": [
+            "On les trouve dans les fruits, légumes, céréales complètes, légumineuses.",
+            "Elles aident à se sentir rassasié.",
+            "Elles nourrissent les bonnes bactéries de l'intestin."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "info",
+          "image": "/placeholder.svg?height=400&width=400&text=Importance%20des%20Fibres",
+          "text": "Les fibres alimentaires, présentes uniquement dans les végétaux, ne sont pas digérées mais sont essentielles pour la santé. Elles régulent le transit intestinal, préviennent la constipation, contribuent à la satiété (sensation d'être plein) et nourrissent notre microbiote intestinal."
+        },
+        {
+          "type": "question",
+          "image": "/placeholder.svg?height=400&width=400&text=Hydratation",
+          "question": "Quel nutriment essentiel, qui ne fournit pas d'énergie, est vital pour presque toutes les fonctions du corps (transport, régulation température...) ?",
+          "choices": [
+            { "label": "Eau", "emoji": "💧", "image": "/images/eau-vitale.jpg" },
+            { "label": "Sel (Sodium)", "emoji": "🧂", "image": "/images/sel.jpg" },
+            { "label": "Vitamine D", "emoji": "☀️", "image": "/images/vitamine-d-non-energetique.jpg" },
+            { "label": "Fer", "emoji": "🔩", "image": "/images/fer.jpg" }
+          ],
+          "hints": [
+            "Notre corps en est composé à environ 60%.",
+            "Il faut en boire régulièrement tout au long de la journée.",
+            "Elle est perdue par la transpiration, l'urine..."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "info",
+          "image": "/placeholder.svg?height=400&width=400&text=Importance%20de%20l'Eau",
+          "text": "L'eau est indispensable à la vie. Elle transporte les nutriments et l'oxygène vers les cellules, élimine les déchets, régule la température corporelle, lubrifie les articulations... Il est recommandé de boire environ 1,5 litre d'eau par jour, voire plus en cas de chaleur ou d'activité physique."
+        },
+        {
+          "type": "question",
+          "image": "/placeholder.svg?height=400&width=400&text=Vitamine%20C",
+          "question": "Quelle vitamine, abondante dans les agrumes (oranges, citrons) et les kiwis, est importante pour le système immunitaire et la cicatrisation ?",
+          "choices": [
+            { "label": "Vitamine C", "emoji": "🍊", "image": "/images/vitamine-c-fruits.jpg" },
+            { "label": "Vitamine A", "emoji": "🥕", "image": "/images/vitamine-a-legumes.jpg" },
+            { "label": "Vitamine E", "emoji": "🥑", "image": "/images/vitamine-e.jpg" },
+            { "label": "Vitamine B1", "emoji": "🍞", "image": "/images/vitamine-b1.jpg" }
+          ],
+          "hints": [
+            "Elle est hydrosoluble (soluble dans l'eau).",
+            "Elle aide à l'absorption du fer d'origine végétale.",
+            "Elle a des propriétés antioxydantes."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "info",
+          "image": "/placeholder.svg?height=400&width=400&text=Rôle%20de%20la%20Vitamine%20C",
+          "text": "La vitamine C (acide ascorbique) est essentielle pour renforcer nos défenses immunitaires, favoriser la cicatrisation des plaies (grâce à son rôle dans la formation du collagène) et protéger nos cellules du vieillissement (antioxydant). On la trouve surtout dans les fruits et légumes frais."
+        },
+        {
+          "type": "question",
+          "image": "/placeholder.svg?height=400&width=400&text=Calcium",
+          "question": "Quel minéral, abondant dans les produits laitiers, est crucial pour la solidité des os et des dents ?",
+          "choices": [
+            { "label": "Calcium", "emoji": "🥛", "image": "/images/calcium-lait.jpg" },
+            { "label": "Fer", "emoji": "🥩", "image": "/images/fer-viande.jpg" },
+            { "label": "Potassium", "emoji": "🍌", "image": "/images/potassium-banane.jpg" },
+            { "label": "Zinc", "emoji": "🦪", "image": "/images/zinc-huitre.jpg" }
+          ],
+          "hints": [
+            "Il est aussi important pour la contraction musculaire et la coagulation.",
+            "On en trouve aussi dans les légumes verts feuillus et les amandes.",
+            "La vitamine D aide à son absorption."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "info",
+          "image": "/placeholder.svg?height=400&width=400&text=Importance%20du%20Calcium",
+          "text": "Le calcium est le minéral le plus abondant dans le corps humain. Il est le constituant principal des os et des dents, leur assurant solidité et rigidité. Il intervient aussi dans la transmission nerveuse, la contraction des muscles et la coagulation du sang. Les produits laitiers sont une source majeure, mais pas unique."
+        },
+        {
+          "type": "question",
+          "image": "/placeholder.svg?height=400&width=400&text=Fer",
+          "question": "Quel minéral est essentiel pour fabriquer l'hémoglobine, la protéine des globules rouges qui transporte l'oxygène ?",
+          "choices": [
+            { "label": "Fer", "emoji": "🩸", "image": "/images/fer-sang.jpg" },
+            { "label": "Calcium", "emoji": "🦴", "image": "/images/calcium-os.jpg" },
+            { "label": "Iode", "emoji": "🐟", "image": "/images/iode-poisson.jpg" },
+            { "label": "Magnésium", "emoji": "🍫", "image": "/images/magnesium-chocolat.jpg" }
+          ],
+          "hints": [
+            "Sa carence peut provoquer de l'anémie (fatigue, pâleur).",
+            "On le trouve dans la viande rouge, les abats, les légumineuses, les épinards.",
+            "Le fer d'origine animale est mieux absorbé que celui d'origine végétale."
+          ],
+          "correctIndex": 0
+        },
+        {
+          "type": "info",
+          "image": "/placeholder.svg?height=400&width=400&text=Importance%20du%20Fer",
+          "text": "Le fer est un oligo-élément vital pour le transport de l'oxygène dans le sang, car il est un composant clé de l'hémoglobine. Il participe aussi à la production d'énergie et aux défenses immunitaires. Un manque de fer (carence martiale) est fréquent et peut entraîner une fatigue importante."
         }
       ]
     }

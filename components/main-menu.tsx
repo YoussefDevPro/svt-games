@@ -4,9 +4,10 @@ import { Heart, TreesIcon as Lungs, Utensils, Droplet, Beef, HeartPulse, Wind, H
 
 interface MainMenuProps {
   onQuizSelect: (quizId: string) => void
+  showTitle: boolean
 }
 
-export default function MainMenu({ onQuizSelect }: MainMenuProps) {
+export default function MainMenu({ onQuizSelect, showTitle }: MainMenuProps) {
   const quizzes = [
     {
       id: "digestive_system",
@@ -47,20 +48,24 @@ export default function MainMenu({ onQuizSelect }: MainMenuProps) {
   ]
 
   return (
-    <div className="w-full max-w-4xl">
-      <h2 className="text-3xl font-semibold text-[#4c4f69] mb-8 text-center">Choisissez un Sujet</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div className="w-full max-w-4xl overflow-hidden">
+      {showTitle && (
+        <h2 className="text-3xl font-semibold text-[#4c4f69] mb-8 text-center">
+          Choisissez un Sujet
+        </h2>
+      )}
+      <div className={`grid grid-cols-2 gap-4 sm:gap-8 ${showTitle ? 'max-h-[70vh] p-4' : 'max-h-[80vh] p-2'} overflow-y-auto`}>
         {quizzes.map((quiz) => (
           <button
             key={quiz.id}
             onClick={() => onQuizSelect(quiz.id)}
-            className={`flex flex-col items-center justify-center p-10 rounded-2xl ${quiz.color} ${quiz.textColor} border ${quiz.borderColor} transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-xl ${quiz.shadowColor}`}
+            className={`flex flex-col items-center justify-center p-4 sm:p-10 rounded-2xl ${quiz.color} ${quiz.textColor} border ${quiz.borderColor} transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-xl ${quiz.shadowColor}`}
             style={{
               boxShadow: "8px 8px 16px rgba(166, 173, 200, 0.2), -8px -8px 16px rgba(255, 255, 255, 0.7)",
             }}
           >
             {quiz.icon}
-            <span className="text-2xl font-medium mt-2">{quiz.title}</span>
+            <span className="text-lg sm:text-2xl font-medium mt-2">{quiz.title}</span>
           </button>
         ))}
       </div>

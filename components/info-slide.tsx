@@ -21,9 +21,10 @@ export default function InfoSlide({ slide, onContinue, isLastSlide }: InfoSlideP
   }, [slide])
 
   return (
-    <div className={`flex flex-col md:flex-row gap-6 transition-opacity duration-500 ease-in-out ${isMounted ? 'opacity-100' : 'opacity-0'}`}>
-      <div className={`w-full md:w-1/2 flex flex-col items-center justify-center transition-all duration-500 ease-in-out delay-100 ${isMounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
-        <div className="w-full aspect-square rounded-xl overflow-hidden shadow-lg">
+    // Changed to always use flex-col for all screen sizes
+    <div className={`flex flex-col gap-6 transition-opacity duration-500 ease-in-out ${isMounted ? 'opacity-100' : 'opacity-0'}`}>
+      <div className={`w-full flex flex-col items-center justify-center transition-all duration-500 ease-in-out delay-100 ${isMounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
+        <div className="w-full max-w-md mx-auto aspect-square rounded-xl overflow-hidden shadow-lg">
           <img
             src={slide.image || `/placeholder.svg?height=400&width=400&text=Info`}
             alt="Information"
@@ -32,7 +33,7 @@ export default function InfoSlide({ slide, onContinue, isLastSlide }: InfoSlideP
         </div>
       </div>
 
-      <div className="w-full md:w-1/2 flex flex-col">
+      <div className="w-full flex flex-col">
         <div className={`bg-white/50 rounded-xl p-6 mb-6 flex-1 shadow-lg border border-white/50 transition-all duration-500 ease-in-out delay-200 ${isMounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
           <p className="text-[#4c4f69] text-xl">{slide.text}</p>
         </div>
